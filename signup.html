@@ -1,0 +1,139 @@
+<html>
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>MySeat - Booking step 1</title>
+    <meta name="description" content="Project for software Engineering">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Mo3ty">
+
+    <!-- Fonts -->
+    <!-- Font awesome - icon font -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+
+<body class="bg-light">
+
+    <div class="wrapper">
+        <!-- Header section -->
+        <header class="header-wrapper">
+            <div class="container">
+                <!-- Logo link-->
+                <a href='index.html' class="logo">
+                    <img alt='logo' src="images/Movies Poster/logo.png">
+                </a>
+
+                <!-- Main website navigation-->
+                <!-- <nav id="navigation-box">
+                    <!-- Toggle for mobile menu mode 
+                    <a href="#" id="navigation-toggle">
+                        <span class="menu-icon">
+                            <span class="icon-toggle" role="button" aria-label="Toggle Navigation">
+                                <span class="lines"></span>
+                            </span>
+                        </span>
+                    </a>
+                </nav> -->
+
+                <!-- Additional header buttons / Auth and direct link to booking-->
+                <div class="control-panel">
+                    <a href="index.html" class="btn btn-md btn--warning ">Back to Home</a>
+                </div>
+
+            </div>
+        </header>
+
+
+        <!-- Main content -->
+
+        <section class="container">
+            <div class="order-container">
+                <div class="order">
+                    <img class="order__images" alt='' src="images/tickets.png">
+                    <p class="order__title">MySeat Cinema <br><span class="order__descript">your favorite booking
+                            website</span></p>
+                </div>
+
+        </section>
+
+        <div class="clearfix"></div>
+
+        <div class="container text-center ">
+
+            <div class="form w-50 m-auto">
+                <h1>Sign up</h1>
+                <div class=" form-group ">
+
+                    <input id="name" class=" form-control" type="text" placeholder="Enter your name">
+
+                </div>
+                <div class=" form-group ">
+                    <div class=" form-group ">
+
+                        <input id="email" class=" form-control" type="email" placeholder="Enter your mail">
+
+                    </div>
+                    <div class=" form-group ">
+
+                        <input id="password" class=" form-control" type="password" placeholder="Enter your passward">
+                    </div>
+                    <p  id="success" class="text-center text-success" hidden>Success</p>
+                    <div class=" form-group ">
+
+                        <button onclick="signUp()" id="signUpBtn" class="btn btn-outline-primary form-control" disabled>sign
+                            up</button>
+                    </div>
+                    <p class=" text-black-50">Don’t have an account? <a href="login.html">login</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer-wrapper">
+            <section class="container">
+                <div class="col-xs-4 col-md-2 footer-nav">
+                    <ul class="nav-link">
+                        <li><a href="movie-list.html" class="nav-link__item">Movies</a></li>
+                        <li><a href="#" class="nav-link__item">Terms of use</a></li>
+                        <li><a href="contact.html" class="nav-link__item">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-md-2 footer-nav">
+                </div>
+                <div class="col-xs-4 col-md-2 footer-nav">
+                    <ul class="nav-link">
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="footer-info">
+                        <p class="heading-special--small">MySeat<br><span class="title-edition">in the social
+                                media</span></p>
+
+                        <div class="social">
+                            <a href='#' class="social__variant fa fa-facebook"></a>
+                            <a href='#' class="social__variant fa fa-twitter"></a>
+                            <a href='#' class="social__variant fa fa-vk"></a>
+                            <a href='#' class="social__variant fa fa-instagram"></a>
+                            <a href='#' class="social__variant fa fa-tumblr"></a>
+                            <a href='#' class="social__variant fa fa-pinterest"></a>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <p class="copy">&copy; MySeat, 2020. All rights reserved. Done by Mo3ty team</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+
+    <script src="js/sign-up.js"></script>
+</body>
+
+</html>
